@@ -1,0 +1,10 @@
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 5%;
+  display: grid;
+  display: grid; /* Enable grid layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  gap: 30px;
+  
+}
