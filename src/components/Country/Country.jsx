@@ -12,7 +12,7 @@ const Country = ({country}) => {
         <div className='container2'>
             <div>
             <h4>{name?.common}</h4>
-            <button className='visited-btn' onClick={handleVisited}>Visited</button>
+            <button className={visited?'visited-btn-true': 'visited-btn'} onClick={handleVisited}>Visited</button>
             <p>
                 {visited? 'I have visit this country':'I want to viait!'}
             </p>
