@@ -29,3 +29,11 @@
     border-radius: 10px;
     color:white;
 }
+.mark-visited{
+    background-color: white;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(11, 1, 39)
+}
